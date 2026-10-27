@@ -42,7 +42,7 @@ class SiswaController extends Controller
             1 => ['nama' => 'Ahmad Busairi','sekolah' => 'SMK Muhammadiyah 6 Rogojampi','alamat' => 'Dsn. Karanganyar Ds.Karangbendo' ],
             2 => ['nama' => 'Wafa Hakam','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Cungkingan Ds.Badean'],
             3 => ['nama' => 'Rasya Ifkian','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Kumendung  Ds. Kumendung'],
-            4 => ['nama' => 'Fuad Aulia Ahmed','sekolah'=> 'SMK 1 Ngawi','alamat','Dsn. Balak Ds.Songgon'],
+            4 => ['nama' => 'Fuad Aulia Ahmed','sekolah'=> 'SMK 1 Ngawi','alamat' => 'Dsn. Balak Ds.Songgon'],
         ];
 
         if (!isset($dataSiswa[$id])) {
