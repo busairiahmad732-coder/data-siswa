@@ -21,8 +21,7 @@ Route::prefix('admin')->group(function() {
     ->name("admin.siswa");
     Route::get('/siswa/{id}', [SiswaController::class,'detail'])
     ->name("admin.siswa.detail");
-     Route::get('/about', [HalamanController::class,'about'])
-    ->name("admin.about");
+   
 
     
 });
