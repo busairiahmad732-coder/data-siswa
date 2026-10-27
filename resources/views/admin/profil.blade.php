@@ -12,29 +12,30 @@
 </head>
 <body>
     @include('componen.navbar')
-    <h2>profil admin</h2>
-
     <div class="profil">
-        <div class="profil-card">
-            <div class="foto">
-                <img src="{{ asset('image/ari.png') }}" alt="my foto">
+    <h2>profil admin</h2>
+        <div class="posisi-card">
+            <div class="profil-card">
+                <div class="foto">
+                    <img src="{{ asset('image/ari.png') }}" alt="my foto">
+                </div>
+                <h6>ahmad busairi</h6>
+                <p>smk muhammadiyah 6 rogaojampi</p>
+                <p>magang di <b>pt hummatech malang</b></p> 
             </div>
-            <h6>ahmad busairi</h6>
-            <p>smk muhammadiyah 6 rogaojampi</p>
-            <p>magang di <b>pt hummatech malang</b></p> 
-            <a href="{{ route('home') }}" class="btn btn-secondary">Kembali</a>
-        </div>
 
-        <div class="profil-card">
-            <div class="foto">
-                <img src="{{ asset('image/.png') }}" alt="my foto">
+            <div class="profil-card">
+                <div class="foto">
+                    <img src="{{ asset('image/wafa.png') }}" alt="my foto">
+                </div>
+                <h6>wafa hakam annur</h6>
+                <p>smk muhammadiyah 6 rogaojampi</p>
+                <p>magang di <b>pt hummatech malang</b></p> 
             </div>
-            <h6>wafa hakam annur</h6>
-            <p>smk muhammadiyah 6 rogaojampi</p>
-            <p>magang di <b>pt hummatech malang</b></p> 
-            <a href="{{ route('home') }}" class="btn btn-secondary">Kembali</a>
         </div>
     </div>
+
+    <a href="{{ route('home') }}" class="btn btn-secondary justify-content-center">Kembali</a>
 
     @include('componen.footer')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
