@@ -10,9 +10,6 @@ Route::get('/', [HalamanController::class, 'home'])
 //halaman tentang
 Route::view('/tentang', 'tentang')
 ->name("tentang");
-//about
-Route::view('/about', 'about')
-->name("about");
 //redirect
 Route::redirect('/dashboard-lama', '/')
 ->name("dashboard.lama");
@@ -24,5 +21,8 @@ Route::prefix('admin')->group(function() {
     ->name("admin.siswa");
     Route::get('/siswa/{id}', [SiswaController::class,'detail'])
     ->name("admin.siswa.detail");
+     Route::get('/about', [HalamanController::class,'about'])
+    ->name("admin.about");
+
     
 });
