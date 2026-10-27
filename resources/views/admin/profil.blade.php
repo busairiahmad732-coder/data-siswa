@@ -32,15 +32,16 @@
                 <p>smk muhammadiyah 6 rogaojampi</p>
                 <p>magang di <b>pt hummatech malang</b></p> 
             </div>
-        </div>
 
-        <div class="profil-card">
-            <div class="foto">
-                <img src="{{ asset('image/Rasya.png') }}" alt="my foto">
+            <div class="profil-card">
+                <div class="foto">
+                    <img src="{{ asset('image/Rasya.png') }}" alt="my foto">
+                </div>
+                <h6>rasya ifqian nezqi</h6>
+                <p>smk muhammadiyah 6 rogaojampi</p>
+                <p>magang di <b>pt hummatech malang</b></p> 
+                <a href="{{ route('home') }}" class="btn btn-secondary">Kembali</a>
             </div>
-            <h6>rasya ifqian nezqi</h6>
-            <p>smk muhammadiyah 6 rogaojampi</p>
-            <p>magang di <b>pt hummatech malang</b></p> 
         </div>
     </div>
 
