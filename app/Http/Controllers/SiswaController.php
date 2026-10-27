@@ -17,13 +17,13 @@ class SiswaController extends Controller
             ],
             [
             'id' => 2,
-            'nama' => 'Wafa Hakam',
+            'nama' => 'Wafa Hakam annur',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Dsn. Cungkingan Ds.Badean'
             ],
             [
             'id' => 3,
-            'nama' => 'Rasya Ifkian',
+            'nama' => 'Rasya Ifqian nezqi',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Dsn. Kumendung  Ds. Kumendung'
             ],
@@ -33,6 +33,12 @@ class SiswaController extends Controller
             'sekolah'=> 'SMK 1 Ngawi',
             'alamat'=> 'Dsn. Balak Ds.Songgon'
             ],
+            [
+             'id'=> 5,
+             'nama'=> 'Faiz Rizky Syandana',
+             'sekolah'=> 'SMK 9 Jomokerto',
+             'alamat'=> 'Dsn. Watukebo Ds.Watukebo',
+            ],
         ];
         return view('admin.siswa', compact('dataSiswa'));
     }
@@ -40,9 +46,10 @@ class SiswaController extends Controller
     {
         $dataSiswa = [
             1 => ['nama' => 'Ahmad Busairi','sekolah' => 'SMK Muhammadiyah 6 Rogojampi','alamat' => 'Dsn. Karanganyar Ds.Karangbendo' ],
-            2 => ['nama' => 'Wafa Hakam','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Cungkingan Ds.Badean'],
-            3 => ['nama' => 'Rasya Ifkian','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Kumendung  Ds. Kumendung'],
+            2 => ['nama' => 'Wafa Hakam annur','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Cungkingan Ds.Badean'],
+            3 => ['nama' => 'Rasya Ifkian nezqi','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Kumendung  Ds. Kumendung'],
             4 => ['nama' => 'Fuad Aulia Ahmed','sekolah'=> 'SMK 1 Ngawi','alamat' => 'Dsn. Balak Ds.Songgon'],
+            5=> ['nama'=> 'Fais Rizky Syandana','sekolah'=> 'SMK 9 Jomokerto','alamat' => 'Dsn. Watukebo Ds.Watukebo'],
         ];
 
         if (!isset($dataSiswa[$id])) {
