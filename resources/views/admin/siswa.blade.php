@@ -17,7 +17,7 @@
         <h1>daftar siswa</h1>
         <div class="profil-card">
             @foreach ($dataSiswa as $siswa)
-            <div class="col-md-4">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="card-body justify-content-center">
                     <h6>{{ $siswa['nama'] }}</h6>
 
