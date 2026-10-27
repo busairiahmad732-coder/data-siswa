@@ -15,7 +15,7 @@
 
     <div class="daftar">
         <h1>daftar siswa</h1>
-        <div class="profil-card">
+        <div class="profil-card row g-3">
             @foreach ($dataSiswa as $siswa)
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card-body justify-content-center">
