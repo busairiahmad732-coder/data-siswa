@@ -14,7 +14,7 @@
     @include('componen.navbar')
     <div class="home">
         <h1>sistem manegemen data siswa</h1>
-        <p>selamat datang di website pengelola data siswa</p>
+        <p>selamat datang di website pengelola data siswa liar</p>
 
         <a href="{{ route('admin.siswa') }}" class="btn btn-primary">Lihat Data</a>
         <a href="{{ route('admin.profil') }}" class="btn btn-primary">profil admin</a>
