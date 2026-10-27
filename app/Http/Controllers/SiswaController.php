@@ -17,7 +17,7 @@ class SiswaController extends Controller
             ],
             [
             'id' => 2,
-            'nama' => 'Wafa Ahkam',
+            'nama' => 'Wafa Hakam',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Dsn. Cungkingan Ds.Badean'
             ],
@@ -34,7 +34,7 @@ class SiswaController extends Controller
     {
         $dataSiswa = [
             1 => ['nama' => 'Ahmad Busairi','sekolah' => 'SMK Muhammadiyah 6 Rogojampi','alamat' => 'Dsn. Karanganyar Ds.Karangbendo' ],
-            2 => ['nama' => 'Wafa Ahkam','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Cungkingan Ds.Badean'],
+            2 => ['nama' => 'Wafa Hakam','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Cungkingan Ds.Badean'],
             3 => ['nama' => 'Rasya Ifkian','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Kumendung  Ds. Kumendung'],
         ];
 
