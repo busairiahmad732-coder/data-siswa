@@ -120,12 +120,15 @@ body > .detail {
    4. HALAMAN PROFIL
 ========================= */
 .profil {
-    flex: 1;
     padding: 110px 20px 50px;
+
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
 .profil h2 {
+    padding: 70px;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
