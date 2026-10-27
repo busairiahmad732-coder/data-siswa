@@ -173,8 +173,9 @@ body > .detail {
 }
 
 .profil .btn {
-    margin-top: auto;
-    align-self: center;
+    margin: 15px auto 0;
+    display: block;
+    width: fit-content;
 }
 
 /* =========================
