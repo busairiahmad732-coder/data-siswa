@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <a href="{{ route('home') }}" class="btn btn-secondary justify-content-center">Kembali</a>
+    <a href="{{ route('home') }}" class="btn btn-secondary">Kembali</a>
 
     @include('componen.footer')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
