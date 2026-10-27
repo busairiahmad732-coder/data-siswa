@@ -42,7 +42,6 @@
             <h6>rasya ifqian nezqi</h6>
             <p>smk muhammadiyah 6 rogaojampi</p>
             <p>magang di <b>pt hummatech malang</b></p> 
-            <a href="{{ route('home') }}" class="btn btn-secondary">Kembali</a>
         </div>
     </div>
 
