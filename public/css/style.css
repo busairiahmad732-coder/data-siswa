@@ -172,9 +172,9 @@ body > .detail {
     margin-bottom: 10px;
 }
 
-.btn {
-    margin-top: 15px;
-
+.profil .btn {
+    margin-top: auto;
+    align-self: center;
 }
 
 /* =========================
