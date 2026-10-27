@@ -27,7 +27,7 @@
 
         <div class="profil-card">
             <div class="foto">
-                <img src="{{ asset('image/.png') }}" alt="my foto">
+                <img src="{{ asset('image/Wafa.png') }}" alt="my foto">
             </div>
             <h6>wafa hakam annur</h6>
             <p>smk muhammadiyah 6 rogaojampi</p>
