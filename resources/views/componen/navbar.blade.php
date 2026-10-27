@@ -12,6 +12,9 @@
                 <li class="nav-item">
                 <a class="nav-link" href="{{ route('tentang') }}">Tentang</a>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link" href="{{ route('about') }}">About</a></a>
+                </li>
             </div>
         </div>
     </nav>
