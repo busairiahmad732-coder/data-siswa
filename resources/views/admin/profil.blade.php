@@ -22,6 +22,7 @@
                 <h6>ahmad busairi</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
                 <p>magang di <b>pt hummatech malang</b></p> 
+                <span class="badge bg-success">Admin</span>
             </div>
             
             <div class="profil-card col">
@@ -30,7 +31,8 @@
                 </div>
                 <h6>wafa hakam annur</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
-                <p>magang di <b>pt hummatech malang</b></p> 
+                <p>magang di <b>pt hummatech malang</b></p>
+                <span class="badge bg-warning text-dark">Editor</span>
             </div>  
 
             <div class="profil-card col">
@@ -39,7 +41,8 @@
                 </div>
                 <h6>rasya ifqian nezqi</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
-                <p>magang di <b>pt hummatech malang</b></p> 
+                <p>magang di <b>pt hummatech malang</b></p>
+                <span class="badge bg-warning text-dark">Editor</span>
             </div>
 
             <div class="profil-card col">
@@ -48,7 +51,8 @@
                 </div>
                 <h6>Faiz Rizky Syandana</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
-                <p>magang di <b>pt hummatech malang</b></p> 
+                <p>magang di <b>pt hummatech malang</b></p>
+                <span class="badge bg-warning text-dark">Editor</span>
             </div>
 
             <div class="profil-card col">
@@ -57,7 +61,8 @@
                 </div>
                 <h6>Fuad Aulia Ahmed</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
-                <p>magang di <b>pt hummatech malang</b></p> 
+                <p>magang di <b>pt hummatech malang</b></p>
+                <span class="badge bg-warning text-dark">Editor</span>
             </div>
         </div>
 

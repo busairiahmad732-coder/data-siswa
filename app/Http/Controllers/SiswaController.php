@@ -12,6 +12,7 @@ class SiswaController extends Controller
             [
                 'id' => 1,
                 'nama' => 'Ahmad Busairi',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Karanganyar Ds.Karangbendo',
                 'deskripsi' => 'Belajar dulu ngegame bisa nanti'
@@ -19,6 +20,7 @@ class SiswaController extends Controller
             [
                 'id' => 2,
                 'nama' => 'Wafa Hakam annur',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Cungkingan Ds.Badean',
                 'deskripsi' => 'AMSSRBLHGSHARKM'
@@ -26,6 +28,7 @@ class SiswaController extends Controller
             [
                 'id' => 3,
                 'nama' => 'Rasya Ifqian nezqi',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Kumendung Ds. Kumendung',
                 'deskripsi' => 'Coding tipis tipis, game tebal tebal'
@@ -33,12 +36,14 @@ class SiswaController extends Controller
             [
                 'id' => 4,
                 'nama' => 'Fuad Aulia Ahmed',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK Negeri 1 Ngawi',
                 'alamat' => 'Dsn. Balak Ds.Songgon',
                 'deskripsi' => 'Game dulu, belajar mah bisa nanti'
             ],
             [
                 'id' => 5,
+                'pkl' => 'PT. Hummatech',
                 'nama' => 'Faiz Rizky Syandana',
                 'sekolah' => 'SMK 9 Jomokerto',
                 'alamat' => 'Dsn. Watukebo Ds.Watukebo',
@@ -47,6 +52,7 @@ class SiswaController extends Controller
             [
                 'id' => 6,
                 'nama' => 'Moh. Dimas Ryan Adhi Putra Siagian',
+                'pkl' => null,
                 'sekolah' => 'SMA Negeri 2 Kebumen',
                 'alamat' => 'Dsn. Jagalan Ds.Rogojampi',
                 'deskripsi' => 'angek sama bigmok'

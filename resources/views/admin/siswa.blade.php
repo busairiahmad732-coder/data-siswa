@@ -16,18 +16,27 @@
     <div class="daftar">
         <h1>daftar siswa</h1>
         <div class="profil-card row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
-            @foreach ($dataSiswa as $siswa)
+            @forelse ($dataSiswa as $siswa)
             <div class="col">
                 <div class="card h-100">
                     <div class="card-body text-center">
                         <h6>{{ $siswa['nama'] }}</h6>
 
+                        @if (!empty($siswa['pkl']))
+                            <span class="badge bg-success mt-2">
+                                {{ $siswa['pkl']}}
+                            </span>
+                        @else 
+                            <span class="badge bg-warning mt-2">
+                                Not Data
+                            </span>
+                        @endif
                         <a href="{{ route('admin.siswa.detail',$siswa['id']) }}"
                         class="btn btn-primary">Lihat Detail</a>
                     </div>
                 </div>
             </div>
-            @endforeach
+            @endforelse
         </div>
         <a href="{{ route('home') }}" class="btn btn-secondary">Kembali</a>
     </div>
