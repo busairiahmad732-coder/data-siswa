@@ -36,6 +36,8 @@
                     </div>
                 </div>
             </div>
+            @empty
+                <p>Belum ada data siswa.</p>
             @endforelse
         </div>
         <a href="{{ route('home') }}" class="btn btn-secondary">Kembali</a>
