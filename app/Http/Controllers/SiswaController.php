@@ -21,7 +21,7 @@ class SiswaController extends Controller
                 'nama' => 'Wafa Hakam annur',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Cungkingan Ds.Badean',
-                'deskripsi' => 'Suki boleh, Amba suka suka'
+                'deskripsi' => 'AMSSRBLHGSHARKM'
             ],
             [
                 'id' => 3,
@@ -97,7 +97,7 @@ class SiswaController extends Controller
                 'nama' => 'Wafa Hakam annur',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Cungkingan Ds.Badean',
-                'deskripsi' => 'Suki boleh, Amba suka suka'
+                'deskripsi' => 'AMSSRBLHGSHARKM'
             ],
             3 => [
                 'nama' => 'Rasya Ifqian nezqi',
