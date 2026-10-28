@@ -15,14 +15,16 @@
 
     <div class="daftar">
         <h1>daftar siswa</h1>
-        <div class="profil-card row g-3">
+        <div class="profil-card row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
             @foreach ($dataSiswa as $siswa)
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card-body justify-content-center">
-                    <h6>{{ $siswa['nama'] }}</h6>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h6>{{ $siswa['nama'] }}</h6>
 
-                    <a href="{{ route('admin.siswa.detail',$siswa['id']) }}"
-                    class="btn btn-primary">Lihat Detail</a>
+                        <a href="{{ route('admin.siswa.detail',$siswa['id']) }}"
+                        class="btn btn-primary">Lihat Detail</a>
+                    </div>
                 </div>
             </div>
             @endforeach
