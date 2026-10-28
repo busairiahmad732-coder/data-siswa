@@ -39,6 +39,12 @@ class SiswaController extends Controller
              'sekolah'=> 'SMK 9 Jomokerto',
              'alamat'=> 'Dsn. Watukebo Ds.Watukebo',
             ],
+            [
+            'id'=> 6,
+            'nama'=> 'Dimas Ryan Adhi Putra Siagian',
+            'sekolah'=> 'SMA Negeri 2 Kebumen',
+            'alamat'=> 'Dsn. Jagalan Ds.Rogojampi'
+            ],
         ];
         return view('admin.siswa', compact('dataSiswa'));
     }
@@ -50,6 +56,7 @@ class SiswaController extends Controller
             3 => ['nama' => 'Rasya Ifkian nezqi','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Kumendung  Ds. Kumendung'],
             4 => ['nama' => 'Fuad Aulia Ahmed','sekolah' => 'SMK 1 Ngawi','alamat' => 'Dsn. Balak Ds.Songgon'],
             5 => ['nama' => 'Fais Rizky Syandana','sekolah' => 'SMK 9 Jomokerto','alamat' => 'Dsn. Watukebo Ds.Watukebo'],
+            6=> ['nama'  => 'Dimas Ryan Adhi Putra Siagian','sekolah'=> 'SMA Negeri 3 Kebumen','alamat' => 'Dsn.Jagalan Ds. Rogojampi'],
         ];
 
         if (!isset($dataSiswa[$id])) {
