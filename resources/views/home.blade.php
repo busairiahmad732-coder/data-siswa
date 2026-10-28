@@ -12,6 +12,7 @@
 </head>
 <body>
     @include('componen.navbar')
+<<<<<<< HEAD
     
     <div id="homeSlider"
         class="carousel slide carousel-fade"
@@ -85,6 +86,11 @@
             <span class="carousel-control-next-icon"></span>
             <span class="visually-hidden">Berikutnya</span>
         </button>
+=======
+    <div class="home">
+        <h1>data siswa kelas xi rpl</h1>
+        <p><b>SMK Muhammadiyah 6 Rogojampi</b></p>
+>>>>>>> origin/main
 
     </div>
 
