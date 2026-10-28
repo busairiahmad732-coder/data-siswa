@@ -30,7 +30,7 @@ class SiswaController extends Controller
             [
             'id'=> 4,
             'nama'=> 'Fuad Aulia Ahmed',
-            'sekolah'=> 'SMK 1 Ngawi',
+            'sekolah'=> 'SMK Negeri 1 Ngawi',
             'alamat'=> 'Dsn. Balak Ds.Songgon'
             ],
             [
@@ -66,7 +66,7 @@ class SiswaController extends Controller
             1 => ['nama' => 'Ahmad Busairi','sekolah' => 'SMK Muhammadiyah 6 Rogojampi','alamat' => 'Dsn. Karanganyar Ds.Karangbendo' ],
             2 => ['nama' => 'Wafa Hakam annur','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Cungkingan Ds.Badean'],
             3 => ['nama' => 'Rasya Ifkian nezqi','sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 'alamat' => 'Dsn. Kumendung  Ds. Kumendung'],
-            4 => ['nama' => 'Fuad Aulia Ahmed','sekolah' => 'SMK 1 Ngawi','alamat' => 'Dsn. Balak Ds.Songgon'],
+            4 => ['nama' => 'Fuad Aulia Ahmed','sekolah' => 'SMK Negeri 1 Ngawi','alamat' => 'Dsn. Balak Ds.Songgon'],
             5 => ['nama' => 'Fais Rizky Syandana','sekolah' => 'SMK 9 Jomokerto','alamat' => 'Dsn. Watukebo Ds.Watukebo'],
             6 => ['nama' => 'Moh. Dimas Ryan Adhi Putra Siagian','sekolah'=> 'SMA Negeri 3 Kebumen','alamat' => 'Dsn.Jagalan Ds. Rogojampi'],
             7 => ['nama' => 'Moh. Satrya Sejati','sekolah'=> 'SMK Negeri 2 Ngawi','alamat' => 'Dsn. Alas Malang Ds.Alas Malang'],
