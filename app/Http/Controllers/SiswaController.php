@@ -19,7 +19,7 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 2,
-                'nama' => 'Wafa Hakam annur',
+                'nama' => 'Wafa Hakam an nur',
                 'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Cungkingan Ds.Badean',
@@ -35,7 +35,7 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 4,
-                'nama' => 'Fuad Aulia Ahmed',
+                'nama' => 'Fuad Aulia Ahmad',
                 'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Balak Ds.Songgon',
@@ -51,7 +51,7 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 6,
-                'nama' => 'Moh. Dimas Ryan Adhi Putra Siagian',
+                'nama' => 'Moh. Dimas Riyan Adhi Putra Siagian',
                 'pkl' => 'PT Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Jagalan Ds.Rogojampi',
@@ -67,7 +67,7 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 8,
-                'nama' => 'Raditya Sarif Hidayatullah',
+                'nama' => 'Raditya Syarif Hidayatullah',
                 'pkl'=> 'PT. Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
@@ -75,7 +75,7 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 9,
-                'nama' => 'Unok Fatir Al Royyan',
+                'nama' => 'Uno Fatir Al Royyan Kindy',
                 'pkl'=> 'SMK Muhammadiyah 6 Rogojampi',
                 'sekolah' => 'SMK 99 Ngawi Barat',
                 'alamat' => 'ROBLOK',
@@ -83,7 +83,7 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 10,
-                'nama' => 'Kevin arezha',
+                'nama' => 'Moh. Khevin rezha nur andrean',
                 'pkl'=> 'PT. Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Mekah ngalor titik, Muncar',

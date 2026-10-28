@@ -97,7 +97,7 @@ body > .tentang  {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-position: center 65%;
+    background-position: center 70%;
 }
 
 /* Lapisan gelap di atas foto */
@@ -124,12 +124,14 @@ body > .tentang  {
     font-size: clamp(28px, 5vw, 48px);
     font-weight: bold;
     margin-bottom: 15px;
+    text-shadow: 1px 2px 2px black;
 }
 
 .home-content p {
-    font-size: 18px;
+    font-size: 25px;
     text-transform: none;
     margin-bottom: 25px;
+    text-shadow: 1px 2px 2px black;
 }
 
 .home-content .btn {

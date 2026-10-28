@@ -25,12 +25,9 @@
                     style="background-image: url('{{ asset('image/bg1.jpeg') }}')">
 
                     <div class="home-content">
-                        <h1>SELAMAT DATANG di website sederhana</h1>
-                        <p>Informasi dan profil siswa dalam satu website.</p>
+                        <h1>SELAMAT DATANG</h1>
+                        <p>Informasi dan profil siswa kelas XI RPL dalam satu website.</p>
                         
-                        <a href="{{ route('admin.siswa') }}"
-                        class="btn btn-primary">Lihat Data</a>
-
                         <a href="{{ route('admin.profil') }}"
                         class="btn btn-primary">Profil Admin</a>
                     </div>
@@ -40,7 +37,7 @@
 
             <div class="carousel-item">
                 <div class="home-slide"
-                    style="background-image: url('{{ asset('image/bg2.jpg') }}')">
+                    style="background-image: url('{{ asset('image/bg2.jpeg') }}')">
 
                     <div class="home-content">
                         <h1>DATA SISWA KELAS XI RPL</h1>
@@ -55,7 +52,7 @@
 
             <div class="carousel-item">
                 <div class="home-slide"
-                    style="background-image: url('{{ asset('image/bg3.jpg') }}')">
+                    style="background-image: url('{{ asset('image/bg3.jpeg') }}')">
 
                     <div class="home-content">
                         <h1>WEBSITE DATA SISWA</h1>

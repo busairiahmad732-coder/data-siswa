@@ -36,7 +36,7 @@
             dan Fuad Aulia Ahmad
         </p>
 
-        <a href="{{ route('home') }}" class="btn btn-primary">Kembali ke baranda</a>
+        <a href="{{ route('home') }}" class="btn btn-primary">Kembali ke beranda</a>
         
     <script src="https://net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
