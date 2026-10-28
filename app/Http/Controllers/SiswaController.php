@@ -53,7 +53,7 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 7,
-                'nama' => 'Moh. Satrya Sejati',
+                'nama' => 'Moh. Satrya Sejati Sawit Gaming',
                 'sekolah' => 'SMK Negeri 2 Ngawi',
                 'alamat' => 'Dsn. Alas Malang Ds.Alas Malang',
                 'deskripsi' => 'G and G (Global Glory)'
