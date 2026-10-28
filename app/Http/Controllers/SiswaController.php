@@ -69,8 +69,8 @@ class SiswaController extends Controller
                 'id' => 9,
                 'nama' => 'Unok Fatir Al Royyan Kindy',
                 'sekolah' => 'SMK 99 Ngawi Barat',
-                'alamat' => 'None',
-                'deskripsi' => 'Femboy' 
+                'alamat' => 'ROBLOK',
+                'deskripsi' => 'Femboy furry'
             ],
         ];
 
@@ -81,65 +81,65 @@ class SiswaController extends Controller
     {
         $dataSiswa = [
             1 => [
-                'nama' => 'Ahmad Busairi', 
-                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 
-                'alamat' => 'Dsn. Karanganyar Ds.Karangbendo', 
-                'deskripsi' => 'Belajar dulu ngegame bisa nanti' 
+                'nama' => 'Ahmad Busairi',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
+                'alamat' => 'Dsn. Karanganyar Ds.Karangbendo',
+                'deskripsi' => 'Belajar dulu ngegame bisa nanti'
             ],
             2 => [
-                'nama' => 'Wafa Hakam annur', 
-                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 
-                'alamat' => 'Dsn. Cungkingan Ds.Badean', 
+                'nama' => 'Wafa Hakam annur',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
+                'alamat' => 'Dsn. Cungkingan Ds.Badean',
                 'deskripsi' => 'Suki boleh, Amba suka suka'
             ],
             3 => [
-                'nama' => 'Rasya Ifqian nezqi', 
-                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi', 
-                'alamat' => 'Dsn. Kumendung Ds. Kumendung', 
+                'nama' => 'Rasya Ifqian nezqi',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
+                'alamat' => 'Dsn. Kumendung Ds. Kumendung',
                 'deskripsi' => 'Coding tipis tipis, game tebal tebal'
             ],
             4 => [
-                'nama' => 'Fuad Aulia Ahmed', 
-                'sekolah' => 'SMK Negeri 1 Ngawi', 
-                'alamat' => 'Dsn. Balak Ds.Songgon', 
+                'nama' => 'Fuad Aulia Ahmed',
+                'sekolah' => 'SMK Negeri 1 Ngawi',
+                'alamat' => 'Dsn. Balak Ds.Songgon',
                 'deskripsi' => 'Game dulu, belajar mah bisa nanti'
             ],
             5 => [
-                'nama' => 'Faiz Rizky Syandana', 
-                'sekolah' => 'SMK 9 Jomokerto', 
-                'alamat' => 'Dsn. Watukebo Ds.Watukebo', 
+                'nama' => 'Faiz Rizky Syandana',
+                'sekolah' => 'SMK 9 Jomokerto',
+                'alamat' => 'Dsn. Watukebo Ds.Watukebo',
                 'deskripsi' => 'Yang Bro Rasakan'
             ],
             6 => [
-                'nama' => 'Moh. Dimas Ryan Adhi Putra Siagian', 
-                'sekolah' => 'SMA Negeri 2 Kebumen', 
-                'alamat' => 'Dsn. Jagalan Ds.Rogojampi', 
+                'nama' => 'Moh. Dimas Ryan Adhi Putra Siagian',
+                'sekolah' => 'SMA Negeri 2 Kebumen',
+                'alamat' => 'Dsn. Jagalan Ds.Rogojampi',
                 'deskripsi' => 'angek sama bigmok'
-            ], 
+            ],
             7 => [
-                'nama' => 'Moh. Satrya Sejati', 
-                'sekolah' => 'SMK Negeri 2 Ngawi', 
-                'alamat' => 'Dsn. Alas Malang Ds.Alas Malang', 
+                'nama' => 'Moh. Satrya Sejati Sawit Gaming',
+                'sekolah' => 'SMK Negeri 2 Ngawi',
+                'alamat' => 'Dsn. Alas Malang Ds.Alas Malang',
                 'deskripsi' => 'G and G (Global Glory)'
             ],
             8 => [
-                'nama' => 'Raditya SawitHidayatullah', 
-                'sekolah' => 'SMA Negeri 2 Solo', 
-                'alamat' => 'Dsn. Rogojampi Ds.Rogojampi', 
+                'nama' => 'Raditya SawitHidayatullah',
+                'sekolah' => 'SMA Negeri 2 Solo',
+                'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
                 'deskripsi' => 'Radit Clanker'
-            ], 
+            ],
             9 => [
-                'nama' => 'Unok Fatir Al Royyan Kindy', 
-                'sekolah' => 'SMK 99 Ngawi Barat', 
-                'alamat' => 'None', 
-                'deskripsi' => 'Femboy'
+                'nama' => 'Unok Fatir Al Royyan Kindy',
+                'sekolah' => 'SMK 99 Ngawi Barat',
+                'alamat' => 'ROBLOK',
+                'deskripsi' => 'Femboy Furry'
             ],
         ];
 
         if (!isset($dataSiswa[$id])) {
             abort(404, 'Data tidak ditemukan');
         }
-        
+
         $siswa = $dataSiswa[$id];
 
         return view('admin.detail-siswa', compact('siswa', 'id'));
