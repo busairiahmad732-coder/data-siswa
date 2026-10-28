@@ -44,7 +44,7 @@
 
             <div class="profil-card col-12 col-md-6 col-lg-3">
                 <div class="foto">
-                    <img src="{{ asset('image/Rasya.png') }}" alt="my foto">
+                    <img src="{{ asset('image/.png') }}" alt="my foto">
                 </div>
                 <h6>Faiz Rizky Syandana</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
@@ -53,7 +53,7 @@
 
             <div class="profil-card col-12 col-md-6 col-lg-3">
                 <div class="foto">
-                    <img src="{{ asset('image/Rasya.png') }}" alt="my foto">
+                    <img src="{{ asset('image/.png') }}" alt="my foto">
                 </div>
                 <h6>Fuad Aulia Ahmed</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
