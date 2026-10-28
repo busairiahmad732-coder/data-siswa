@@ -72,6 +72,13 @@ class SiswaController extends Controller
                 'alamat' => 'ROBLOK',
                 'deskripsi' => 'Femboy furry'
             ],
+            [
+                'id' => 10,
+                'nama' => 'Moh kevin rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap raact js xampp blade.php laravel pak atok bagas sumbersewu',
+                'sekolah' => 'SMK 3 NGAWI',
+                'alamat' => 'Mekah ngalor titik, Muncar',
+                'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
+            ],
         ];
 
         return view('admin.siswa', compact('dataSiswa'));
@@ -133,6 +140,13 @@ class SiswaController extends Controller
                 'sekolah' => 'SMK 99 Ngawi Barat',
                 'alamat' => 'ROBLOK',
                 'deskripsi' => 'Femboy Furry'
+            ],
+            [
+                'id' => 10,
+                'nama' => 'Moh kevin rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap raact js xampp blade.php laravel pak atok bagas sumbersewu',
+                'sekolah' => 'SMK 3 NGAWI',
+                'alamat' => 'Mekah ngalor titik, Muncar',
+                'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
             ],
         ];
 
