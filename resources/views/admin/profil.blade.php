@@ -31,7 +31,7 @@
                 <h6>wafa hakam annur</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
                 <p>magang di <b>pt hummatech malang</b></p> 
-            </div>
+            </div>  
 
             <div class="profil-card col-12 col-md-6 col-lg-3">
                 <div class="foto">
