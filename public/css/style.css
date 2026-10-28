@@ -370,6 +370,7 @@ footer p {
     color: #666;
     text-transform: none;
     margin-bottom: 25px;
+    text-align: justify;
 }
 
 .tentang .btn {

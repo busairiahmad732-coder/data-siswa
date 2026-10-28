@@ -13,22 +13,23 @@
             untuk menampilkan informasi dan profil siswa secara terstruktur. 
             Website ini dibuat menggunakan framework Laravel sebagai sarana 
             pembelajaran dan penerapan pengembangan web.
-        <br><br>
+        
             Melalui website ini, pengguna dapat melihat daftar siswa dan 
             membuka halaman detail untuk mengetahui informasi setiap siswa, 
             seperti nama, sekolah, alamat, dan deskripsi singkat. Dengan 
             tampilan yang sederhana, informasi siswa dapat disajikan 
             secara lebih rapi dan mudah dipahami.
-        <br><br>
+
             Website ini juga menjadi bagian dari proses belajar pengembangan web, 
             khususnya dalam memahami penggunaan Laravel, Controller, Routing, 
             dan View untuk membangun aplikasi web yang dinamis.
-        <br><br>
+
             Tujuan: Membuat website sederhana yang dapat menampilkan data siswa 
             dengan jelas sekaligus menjadi media pembelajaran dalam pengembangan 
             aplikasi berbasis web.
         <br><br>
-            <b>Pengembang :</b>Ahmad Busairi, Wafa Hakam Annur, dan Rasya Ifkian Nezqi
+            <b>Pengembang :</b>Ahmad Busairi, Wafa Hakam Annur, Rasya Ifkian Nezqi, Faiz Risky Sandana, 
+            dan Fuad Aulia Ahmad
         </p>
 
         <a href="{{ route('home') }}" class="btn btn-primary">Kembali ke baranda</a>
