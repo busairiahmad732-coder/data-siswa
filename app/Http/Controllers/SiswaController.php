@@ -37,7 +37,7 @@ class SiswaController extends Controller
                 'id' => 4,
                 'nama' => 'Fuad Aulia Ahmed',
                 'pkl' => 'PT. Hummatech',
-                'sekolah' => 'SMK Negeri 1 Ngawi',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Balak Ds.Songgon',
                 'deskripsi' => 'Game dulu, belajar mah bisa nanti'
             ],
@@ -45,7 +45,7 @@ class SiswaController extends Controller
                 'id' => 5,
                 'nama' => 'Faiz Rizky Syandana',
                 'pkl' => 'PT. Hummatech',
-                'sekolah' => 'SMK 9 Jomokerto',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Watukebo Ds.Watukebo',
                 'deskripsi' => 'Suki Liar'
             ],
@@ -53,29 +53,29 @@ class SiswaController extends Controller
                 'id' => 6,
                 'nama' => 'Moh. Dimas Ryan Adhi Putra Siagian',
                 'pkl' => 'PT Hummatech',
-                'sekolah' => 'SMA Negeri 2 Kebumen',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Jagalan Ds.Rogojampi',
                 'deskripsi' => 'angek sama bigmok'
             ],
             [
                 'id' => 7,
-                'nama' => 'Moh. Satrya Sejati Sawit Gaming',
+                'nama' => 'Moh. Satrya Sejati',
                 'pkl'=> null,
-                'sekolah' => 'SMK Negeri 2 Ngawi',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Alas Malang Ds.Alas Malang',
                 'deskripsi' => 'Gospel and glory'
             ],
             [
                 'id' => 8,
-                'nama' => 'Raditya SawitHidayatullah',
+                'nama' => 'Raditya Sarif Hidayatullah',
                 'pkl'=> 'PT. Hummatech',
-                'sekolah' => 'SMA Negeri 2 Solo',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
                 'deskripsi' => 'Saya akan kembali di kelas XI RPL sebagai murid biasa'
             ],
             [
                 'id' => 9,
-                'nama' => 'Unok Fatir Al Royyan Kindy',
+                'nama' => 'Unok Fatir Al Royyan',
                 'pkl'=> 'SMK Muhammadiyah 6 Rogojampi',
                 'sekolah' => 'SMK 99 Ngawi Barat',
                 'alamat' => 'ROBLOK',
@@ -83,9 +83,9 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 10,
-                'nama' => 'KEPIN rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap react js xampp blade.php laravel pak atok bagas sumbersewu backend femboy akut',
+                'nama' => 'Kevin arezha',
                 'pkl'=> 'PT. Hummatech',
-                'sekolah' => 'SMK 3 NGAWI',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Mekah ngalor titik, Muncar',
                 'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
             ],
@@ -129,49 +129,49 @@ class SiswaController extends Controller
             4 => [
                 'nama' => 'Fuad Aulia Ahmed',
                 'pkl' => 'PT. Hummatech',
-                'sekolah' => 'SMK Negeri 1 Ngawi',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Balak Ds.Songgon',
                 'deskripsi' => 'Game dulu, belajar mah bisa nanti'
             ],
             5 => [
                 'nama' => 'Faiz Rizky Syandana',
                 'pkl' => 'PT. Hummatech',
-                'sekolah' => 'SMK 9 Jomokerto',
+                'sekolah' => 'SSMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Watukebo Ds.Watukebo',
                 'deskripsi' => 'Yang Bro Rasakan'
             ],
             6 => [
                 'nama' => 'Moh. Dimas Ryan Adhi Putra Siagian',
                 'pkl' => 'PT. Hummatech',
-                'sekolah' => 'SMA Negeri 2 Kebumen',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Jagalan Ds.Rogojampi',
                 'deskripsi' => 'angek sama bigmok'
             ],
             7 => [
-                'nama' => 'Moh. Satrya Sejati Sawit Gaming',
+                'nama' => 'Moh. Satrya Sejati',
                 'pkl' => null,
-                'sekolah' => 'SMK Negeri 2 Ngawi',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Alas Malang Ds.Alas Malang',
                 'deskripsi' => 'Gospel and glory'
             ],
             8 => [
-                'nama' => 'Raditya SawitHidayatullah',
+                'nama' => 'Raditya Sarif Hidayatullah',
                 'pkl' => 'PT. Hummatech',
-                'sekolah' => 'SMA Negeri 2 Solo',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
                 'deskripsi' => 'Saya akan kembali di kelas XI RPL sebagai murid biasa'
             ],
             9 => [
-                'nama' => 'Unok Fatir Al Royyan Kindy',
+                'nama' => 'Unok Fatir Al Royyan',
                 'pkl'=> 'SMK Muhammadiyah 6 Rogojampi',
                 'sekolah' => 'SMK 99 Ngawi Barat',
                 'alamat' => 'ROBLOK',
                 'deskripsi' => 'Femboy Furry'
             ],
             10 => [
-                'nama' => 'KEPIN rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap react js xampp blade.php laravel pak atok bagas sumbersewu backend femboy akut',
+                'nama' => 'Kevin Rezha',
                 'pkl' => 'PT. Hummatech',
-                'sekolah' => 'SMK 3 NGAWI',
+                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Mekah ngalor titik, Muncar',
                 'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
             ],
