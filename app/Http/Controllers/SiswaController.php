@@ -79,6 +79,13 @@ class SiswaController extends Controller
                 'alamat' => 'Mekah ngalor titik, Muncar',
                 'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
             ],
+            [
+                'id'=> 11,
+                'nama'=> 'Alif Hafiz Kandayas',
+                'sekolah'=> 'SMK Muhammadiyah 6 Rogojampi',
+                'alamat'=> 'Rogojampi',
+                'deskripsi'=> 'Be The Best'
+            ],
         ];
 
         return view('admin.siswa', compact('dataSiswa'));
@@ -147,6 +154,13 @@ class SiswaController extends Controller
                 'sekolah' => 'SMK 3 NGAWI',
                 'alamat' => 'Mekah ngalor titik, Muncar',
                 'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
+            ],
+            [
+                'id'=> 11,
+                'nama'=> 'Alif Hafiz Kandayas',
+                'sekolah'=> 'SMK Muhammadiyah 6 Rogojampi',
+                'alamat'=> 'Rogojampi',
+                'deskripsi'=> 'Be The Best'
             ],
         ];
 
