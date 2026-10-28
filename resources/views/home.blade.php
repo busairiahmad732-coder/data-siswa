@@ -14,7 +14,7 @@
     @include('componen.navbar')
     <div class="home">
         <h1>data siswa kelas xi rpl</h1>
-        <p><b>SMK Muhammadiyah 5 Rogojampi</b></p>
+        <p><b>SMK Muhammadiyah 6 Rogojampi</b></p>
 
         <a href="{{ route('admin.siswa') }}" class="btn btn-primary">Lihat Data</a>
         <a href="{{ route('admin.profil') }}" class="btn btn-primary">profil admin</a>
