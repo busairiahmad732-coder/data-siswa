@@ -63,7 +63,7 @@ class SiswaController extends Controller
                 'nama' => 'Raditya SawitHidayatullah',
                 'sekolah' => 'SMA Negeri 2 Solo',
                 'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
-                'deskripsi' => 'Radit Clanker'
+                'deskripsi' => 'Saya akan kembali di kelas XI RPL sebagai murid biasa'
             ],
             [
                 'id' => 9,
@@ -133,7 +133,7 @@ class SiswaController extends Controller
                 'nama' => 'Raditya SawitHidayatullah',
                 'sekolah' => 'SMA Negeri 2 Solo',
                 'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
-                'deskripsi' => 'Radit Clanker'
+                'deskripsi' => 'Saya akan kembali di kelas XI RPL sebagai murid biasa'
             ],
             9 => [
                 'nama' => 'Unok Fatir Al Royyan Kindy',
