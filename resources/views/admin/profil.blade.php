@@ -14,8 +14,8 @@
     @include('componen.navbar')
     <div class="profil">
     <h2>profil admin</h2>
-        <div class="posisi-card row g-3">
-            <div class="profil-card col-12 col-md-6 col-lg-3">
+        <div class="posisi-card row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
+            <div class="profil-card col">
                 <div class="foto">
                     <img src="{{ asset('image/ari.png') }}" alt="my foto">
                 </div>
@@ -24,7 +24,7 @@
                 <p>magang di <b>pt hummatech malang</b></p> 
             </div>
             
-            <div class="profil-card col-12 col-md-6 col-lg-3">
+            <div class="profil-card col">
                 <div class="foto">
                     <img src="{{ asset('image/Wafa.png') }}" alt="my foto">
                 </div>
@@ -33,7 +33,7 @@
                 <p>magang di <b>pt hummatech malang</b></p> 
             </div>  
 
-            <div class="profil-card col-12 col-md-6 col-lg-3">
+            <div class="profil-card col">
                 <div class="foto">
                     <img src="{{ asset('image/Rasya.png') }}" alt="my foto">
                 </div>
@@ -42,18 +42,18 @@
                 <p>magang di <b>pt hummatech malang</b></p> 
             </div>
 
-            <div class="profil-card col-12 col-md-6 col-lg-3">
+            <div class="profil-card col">
                 <div class="foto">
-                    <img src="{{ asset('image/.png') }}" alt="my foto">
+                    <img src="{{ asset('image/Faiz.png') }}" alt="my foto">
                 </div>
                 <h6>Faiz Rizky Syandana</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
                 <p>magang di <b>pt hummatech malang</b></p> 
             </div>
 
-            <div class="profil-card col-12 col-md-6 col-lg-3">
+            <div class="profil-card col">
                 <div class="foto">
-                    <img src="{{ asset('image/.png') }}" alt="my foto">
+                    <img src="{{ asset('image/Fuad.png') }}" alt="my foto">
                 </div>
                 <h6>Fuad Aulia Ahmed</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>

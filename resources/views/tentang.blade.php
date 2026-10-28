@@ -34,5 +34,7 @@
 
         <a href="{{ route('home') }}" class="btn btn-primary">Kembali ke baranda</a>
     </div>
+
+    @include('componen.footer')
 </body>
 </html>
