@@ -23,7 +23,8 @@ body {
 body > .home,
 body > .profil,
 body > .daftar,
-body > .detail {
+body > .detail,
+body > .tentang  {
     flex: 1;
 }
 
@@ -305,7 +306,6 @@ footer {
     margin-top: auto;
     background-color: #343a40;
     color: white;
-    padding: 20px;
 }
 
 footer > div {
@@ -349,7 +349,6 @@ footer p {
     flex: 1;
     min-height: 80vh;
     padding: 30px 20px;
-    border: 1px solid black;
 
     display: flex;
     flex-direction: column;
