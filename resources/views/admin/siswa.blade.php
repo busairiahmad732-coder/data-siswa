@@ -23,11 +23,11 @@
                         <h6>{{ $siswa['nama'] }}</h6>
 
                         @if (!empty($siswa['pkl']))
-                            <span class="badge bg-success mt-2">
+                            <span class="badge bg-success mt-2 text-wrap">
                                 {{ $siswa['pkl']}}
                             </span>
                         @else 
-                            <span class="badge bg-warning mt-2">
+                            <span class="badge bg-warning mt-2 text-wrap">
                                 Not Data
                             </span>
                         @endif
