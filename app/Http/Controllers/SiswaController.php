@@ -74,7 +74,7 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 10,
-                'nama' => 'Moh kevin rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap raact js xampp blade.php laravel pak atok bagas sumbersewu',
+                'nama' => 'KEPIN rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap react js xampp blade.php laravel pak atok bagas sumbersewu backend femboy akut',
                 'sekolah' => 'SMK 3 NGAWI',
                 'alamat' => 'Mekah ngalor titik, Muncar',
                 'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
@@ -150,7 +150,7 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 10,
-                'nama' => 'Moh kevin rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap raact js xampp blade.php laravel pak atok bagas sumbersewu',
+                'nama' => 'KEPIN rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap react js xampp blade.php laravel pak atok bagas sumbersewu backend femboy akut',
                 'sekolah' => 'SMK 3 NGAWI',
                 'alamat' => 'Mekah ngalor titik, Muncar',
                 'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
