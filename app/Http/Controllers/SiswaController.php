@@ -97,6 +97,7 @@ class SiswaController extends Controller
                 'alamat'=> 'Rogojampi',
                 'deskripsi'=> 'Be The Best'
             ],
+           
         ];
 
         return view('admin.siswa', compact('dataSiswa'));
