@@ -68,7 +68,7 @@ class SiswaController extends Controller
             [
                 'id' => 8,
                 'nama' => 'Raditya SawitHidayatullah',
-                'pkl'=> 'PT Hummatech',
+                'pkl'=> 'PT. Hummatech',
                 'sekolah' => 'SMA Negeri 2 Solo',
                 'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
                 'deskripsi' => 'Saya akan kembali di kelas XI RPL sebagai murid biasa'
@@ -84,7 +84,7 @@ class SiswaController extends Controller
             [
                 'id' => 10,
                 'nama' => 'KEPIN rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap react js xampp blade.php laravel pak atok bagas sumbersewu backend femboy akut',
-                'pkl'=> 'PT HUmmatech',
+                'pkl'=> 'PT. Hummatech',
                 'sekolah' => 'SMK 3 NGAWI',
                 'alamat' => 'Mekah ngalor titik, Muncar',
                 'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
@@ -92,7 +92,7 @@ class SiswaController extends Controller
             [
                 'id'=> 11,
                 'nama'=> 'Alif Hafiz Kandayas',
-                'pkl'=> 'PT Hummatech',
+                'pkl'=> 'PT. Hummatech',
                 'sekolah'=> 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat'=> 'Rogojampi',
                 'deskripsi'=> 'Be The Best'
@@ -107,66 +107,77 @@ class SiswaController extends Controller
         $dataSiswa = [
             1 => [
                 'nama' => 'Ahmad Busairi',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Karanganyar Ds.Karangbendo',
                 'deskripsi' => 'Belajar dulu ngegame bisa nanti'
             ],
             2 => [
                 'nama' => 'Wafa Hakam annur',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Cungkingan Ds.Badean',
                 'deskripsi' => 'AMSSRBLHGSHARKM'
             ],
             3 => [
                 'nama' => 'Rasya Ifqian nezqi',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Kumendung Ds. Kumendung',
                 'deskripsi' => 'Coding tipis tipis, game tebal tebal'
             ],
             4 => [
                 'nama' => 'Fuad Aulia Ahmed',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK Negeri 1 Ngawi',
                 'alamat' => 'Dsn. Balak Ds.Songgon',
                 'deskripsi' => 'Game dulu, belajar mah bisa nanti'
             ],
             5 => [
                 'nama' => 'Faiz Rizky Syandana',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK 9 Jomokerto',
                 'alamat' => 'Dsn. Watukebo Ds.Watukebo',
                 'deskripsi' => 'Yang Bro Rasakan'
             ],
             6 => [
                 'nama' => 'Moh. Dimas Ryan Adhi Putra Siagian',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMA Negeri 2 Kebumen',
                 'alamat' => 'Dsn. Jagalan Ds.Rogojampi',
                 'deskripsi' => 'angek sama bigmok'
             ],
             7 => [
                 'nama' => 'Moh. Satrya Sejati Sawit Gaming',
+                'pkl' => null,
                 'sekolah' => 'SMK Negeri 2 Ngawi',
                 'alamat' => 'Dsn. Alas Malang Ds.Alas Malang',
                 'deskripsi' => 'Gospel and glory'
             ],
             8 => [
                 'nama' => 'Raditya SawitHidayatullah',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMA Negeri 2 Solo',
                 'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
                 'deskripsi' => 'Saya akan kembali di kelas XI RPL sebagai murid biasa'
             ],
             9 => [
                 'nama' => 'Unok Fatir Al Royyan Kindy',
+                'pkl'=> 'SMK Muhammadiyah 6 Rogojampi',
                 'sekolah' => 'SMK 99 Ngawi Barat',
                 'alamat' => 'ROBLOK',
                 'deskripsi' => 'Femboy Furry'
             ],
             10 => [
                 'nama' => 'KEPIN rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap react js xampp blade.php laravel pak atok bagas sumbersewu backend femboy akut',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK 3 NGAWI',
                 'alamat' => 'Mekah ngalor titik, Muncar',
                 'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
             ],
             11 => [
                 'nama'=> 'Alif Hafiz Kandayas',
+                'pkl' => 'PT. Hummatech',
                 'sekolah'=> 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat'=> 'Rogojampi',
                 'deskripsi'=> 'Be The Best'
