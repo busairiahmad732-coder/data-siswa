@@ -23,7 +23,8 @@ body {
 body > .home,
 body > .profil,
 body > .daftar,
-body > .detail {
+body > .detail,
+body > .tentang  {
     flex: 1;
 }
 
@@ -77,58 +78,90 @@ body > .detail {
 /* =========================
    3. HALAMAN HOME
 ========================= */
-.home {
-    flex: 1;
-    min-height: 80vh;
-    padding: 100px 20px 50px;
+
+/* SLIDER BACKGROUND HALAMAN UTAMA */
+#homeSlider {
+    width: 100%;
+}
+
+.home-slide {
+    height: 100vh ;
+    position: relative;
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    padding: 40px 60px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center 65%;
+}
+
+/* Lapisan gelap di atas foto */
+.home-slide::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* Tulisan di tengah foto */
+.home-content {
+    position: relative;
+    z-index: 1;
+
+    width: 100%;
+    max-width: 900px;
+
+    color: white;
     text-align: center;
 }
 
-.home h1 {
-    font-size: clamp(25px, 4vw, 42px);
+.home-content h1 {
+    font-size: clamp(28px, 5vw, 48px);
     font-weight: bold;
-    color: #212529;
     margin-bottom: 15px;
 }
 
-.home p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 25px;
+.home-content p {
+    font-size: 18px;
     text-transform: none;
+    margin-bottom: 25px;
 }
 
-.home .btn {
+.home-content .btn {
     margin: 5px;
-    min-width: 150px;
-    padding: 10px 18px;
-    border-radius: 8px;
-    transition: 0.3s;
+    padding: 10px 20px;
 }
 
-.home .btn:hover {
-    transform: translateY(-3px);
-}
+@media (max-width: 576px) {
+    .home-slide {
+        min-height: 75vh;
+        padding: 30px 45px;
+    }
 
+    .home-content p {
+        font-size: 15px;
+    }
+}
 /* =========================
    4. HALAMAN PROFIL
 ========================= */
-.profil {
-    flex: 1;
-    padding: 110px 20px 50px;
+.posisi-card {
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
 .profil h2 {
+    padding: 70px;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .profil-card {
@@ -170,8 +203,10 @@ body > .detail {
     margin-bottom: 10px;
 }
 
-.profil-card .btn {
-    margin-top: 15px;
+.profil .btn {
+    margin: 15px auto 0;
+    display: block;
+    width: fit-content;
 }
 
 /* =========================
@@ -190,10 +225,12 @@ body > .detail {
 }
 
 .daftar > .profil-card {
+    width: 100%;
     max-width: 1100px;
     display: flex;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 20px;
+    flex-wrap: wrap;
+   margin: 0 auto 25px;
+    gap: 0;
     margin-bottom: 25px;
     background: transparent;
     box-shadow: none;
@@ -340,7 +377,7 @@ footer p {
 ========================= */
 .tentang {
     flex: 1;
-    min-height: 100vh;
+    min-height: 80vh;
     padding: 30px 20px;
 
     display: flex;
@@ -364,6 +401,7 @@ footer p {
     color: #666;
     text-transform: none;
     margin-bottom: 25px;
+    text-align: justify;
 }
 
 .tentang .btn {

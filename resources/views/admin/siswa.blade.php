@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Data Siswa</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
             rel="stylesheet"
@@ -15,17 +15,30 @@
 
     <div class="daftar">
         <h1>daftar siswa</h1>
-        <div class="profil-card">
-            @foreach ($dataSiswa as $siswa)
-            <div class="col-md-4">
-                <div class="card-body justify-content-center">
-                    <h6>{{ $siswa['nama'] }}</h6>
+        <div class="profil-card row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
+            @forelse ($dataSiswa as $siswa)
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h6>{{ $siswa['nama'] }}</h6>
 
-                    <a href="{{ route('admin.siswa.detail',$siswa['id']) }}"
-                    class="btn btn-primary">Lihat Detail</a>
+                        @if (!empty($siswa['pkl']))
+                            <span class="badge bg-success mt-2 text-wrap">
+                                {{ $siswa['pkl']}}
+                            </span>
+                        @else 
+                            <span class="badge bg-warning mt-2 text-wrap">
+                                Not Data
+                            </span>
+                        @endif
+                        <a href="{{ route('admin.siswa.detail',$siswa['id']) }}"
+                        class="btn btn-primary">Lihat Detail</a>
+                    </div>
                 </div>
             </div>
-            @endforeach
+            @empty
+                <p>Belum ada data siswa.</p>
+            @endforelse
         </div>
         <a href="{{ route('home') }}" class="btn btn-secondary">Kembali</a>
     </div>

@@ -20,5 +20,5 @@ Route::prefix('admin')->group(function() {
     Route::get('/siswa', [SiswaController::class,'index'])
     ->name("admin.siswa");
     Route::get('/siswa/{id}', [SiswaController::class,'detail'])
-    ->name("admin.siswa.detail");
+    ->name("admin.siswa.detail");  
 });

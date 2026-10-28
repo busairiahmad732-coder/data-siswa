@@ -15,8 +15,9 @@
             <p><b>Nama : </b>{{ $siswa['nama'] }}</p>
             <p><b>Sekolah : </b>{{ $siswa['sekolah'] }}</p>
             <p><b>Alamat : </b>{{ $siswa['alamat'] }}</p>
+            <p><b>Deskripsi :</b>{{ $siswa['deskripsi'] }}</p>
 
-            <a href="{{ route('admin.siswa') }}" class="btn btn-primary">Kembali ke Daftar</a>
+            <a href="{{ route('admin.siswa') }}" class="btn btn-primary">Kembali Daftar</a>
         </div>
     </div>
 </body>

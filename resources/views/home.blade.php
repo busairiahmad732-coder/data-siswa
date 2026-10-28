@@ -12,12 +12,80 @@
 </head>
 <body>
     @include('componen.navbar')
-    <div class="home">
-        <h1>sistem manegemen data siswa</h1>
-        <p>selamat datang di website pengelola data siswa</p>
+    
+    <div id="homeSlider"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="4000">
 
-        <a href="{{ route('admin.siswa') }}" class="btn btn-primary">Lihat Data</a>
-        <a href="{{ route('admin.profil') }}" class="btn btn-primary">profil admin</a>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="home-slide"
+                    style="background-image: url('{{ asset('image/bg1.jpeg') }}')">
+
+                    <div class="home-content">
+                        <h1>SELAMAT DATANG di website sederhana</h1>
+                        <p>Informasi dan profil siswa dalam satu website.</p>
+                        
+                        <a href="{{ route('admin.siswa') }}"
+                        class="btn btn-primary">Lihat Data</a>
+
+                        <a href="{{ route('admin.profil') }}"
+                        class="btn btn-primary">Profil Admin</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="home-slide"
+                    style="background-image: url('{{ asset('image/bg2.jpg') }}')">
+
+                    <div class="home-content">
+                        <h1>DATA SISWA KELAS XI RPL</h1>
+                        <p><b>SMK Muhammadiyah 6 Rogojampi</b></p>
+
+                        <a href="{{ route('admin.siswa') }}"
+                        class="btn btn-primary">Lihat Data</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="home-slide"
+                    style="background-image: url('{{ asset('image/bg3.jpg') }}')">
+
+                    <div class="home-content">
+                        <h1>WEBSITE DATA SISWA</h1>
+                        <p>Kenali data siswa kelas XI RPL lebih mudah.</p>
+
+                        <a href="{{ route('admin.siswa') }}"
+                        class="btn btn-primary">Lihat Data</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#homeSlider"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Sebelumnya</span>
+        </button>
+
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#homeSlider"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Berikutnya</span>
+        </button>
+
     </div>
 
     @include('componen.footer')
