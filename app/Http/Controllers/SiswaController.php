@@ -43,8 +43,8 @@ class SiswaController extends Controller
             ],
             [
                 'id' => 5,
-                'pkl' => 'PT. Hummatech',
                 'nama' => 'Faiz Rizky Syandana',
+                'pkl' => 'PT. Hummatech',
                 'sekolah' => 'SMK 9 Jomokerto',
                 'alamat' => 'Dsn. Watukebo Ds.Watukebo',
                 'deskripsi' => 'Suki Liar'
@@ -52,7 +52,7 @@ class SiswaController extends Controller
             [
                 'id' => 6,
                 'nama' => 'Moh. Dimas Ryan Adhi Putra Siagian',
-                'pkl' => null,
+                'pkl' => 'PT Hummatech',
                 'sekolah' => 'SMA Negeri 2 Kebumen',
                 'alamat' => 'Dsn. Jagalan Ds.Rogojampi',
                 'deskripsi' => 'angek sama bigmok'
@@ -60,6 +60,7 @@ class SiswaController extends Controller
             [
                 'id' => 7,
                 'nama' => 'Moh. Satrya Sejati Sawit Gaming',
+                'pkl'=> null,
                 'sekolah' => 'SMK Negeri 2 Ngawi',
                 'alamat' => 'Dsn. Alas Malang Ds.Alas Malang',
                 'deskripsi' => 'Gospel and glory'
@@ -67,6 +68,7 @@ class SiswaController extends Controller
             [
                 'id' => 8,
                 'nama' => 'Raditya SawitHidayatullah',
+                'pkl'=> 'PT Hummatech',
                 'sekolah' => 'SMA Negeri 2 Solo',
                 'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
                 'deskripsi' => 'Saya akan kembali di kelas XI RPL sebagai murid biasa'
@@ -74,6 +76,7 @@ class SiswaController extends Controller
             [
                 'id' => 9,
                 'nama' => 'Unok Fatir Al Royyan Kindy',
+                'pkl'=> 'SMK Muhammadiyah 6 Rogojampi',
                 'sekolah' => 'SMK 99 Ngawi Barat',
                 'alamat' => 'ROBLOK',
                 'deskripsi' => 'Femboy furry'
@@ -81,6 +84,7 @@ class SiswaController extends Controller
             [
                 'id' => 10,
                 'nama' => 'KEPIN rezha auditore londo ireng fanta black cemeng blackhole irenk areng true if else muncar lorem ipsum boostrap react js xampp blade.php laravel pak atok bagas sumbersewu backend femboy akut',
+                'pkl'=> 'PT HUmmatech',
                 'sekolah' => 'SMK 3 NGAWI',
                 'alamat' => 'Mekah ngalor titik, Muncar',
                 'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
@@ -88,6 +92,7 @@ class SiswaController extends Controller
             [
                 'id'=> 11,
                 'nama'=> 'Alif Hafiz Kandayas',
+                'pkl'=> 'PT Hummatech',
                 'sekolah'=> 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat'=> 'Rogojampi',
                 'deskripsi'=> 'Be The Best'
@@ -140,7 +145,7 @@ class SiswaController extends Controller
                 'nama' => 'Moh. Satrya Sejati Sawit Gaming',
                 'sekolah' => 'SMK Negeri 2 Ngawi',
                 'alamat' => 'Dsn. Alas Malang Ds.Alas Malang',
-                'deskripsi' => 'Gospel and glory)'
+                'deskripsi' => 'Gospel and glory'
             ],
             8 => [
                 'nama' => 'Raditya SawitHidayatullah',
