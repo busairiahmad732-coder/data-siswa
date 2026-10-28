@@ -27,9 +27,6 @@
                     <div class="home-content">
                         <h1>SELAMAT DATANG di website sederhana</h1>
                         <p>Informasi dan profil siswa dalam satu website.</p>
-                        
-                        <a href="{{ route('admin.siswa') }}"
-                        class="btn btn-primary">Lihat Data</a>
 
                         <a href="{{ route('admin.profil') }}"
                         class="btn btn-primary">Profil Admin</a>
