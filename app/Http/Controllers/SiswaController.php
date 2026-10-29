@@ -533,7 +533,7 @@ class SiswaController extends Controller
             'pkl' => 'PT. Hummatech',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
-            'deskripsi' => 'Menimba ilmu sebanyak-banyaknya'
+            'deskripsi' => 'Yuk Ngoding Sambil Nangis'
         ],
         35 => [
             'nama' => 'WAFA HAKAM AN NUR',
