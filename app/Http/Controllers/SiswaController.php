@@ -219,11 +219,11 @@ class SiswaController extends Controller
         ],
         [
             'id'=> 27,
-            'nama' => 'QUROTUL ALVINA',
+            'nama' => 'QROTUL ALVINA',
             'pkl' => 'Politeknik Negeri Banyuwangi',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
-            'alamat' => 'Rogojampi',
-            'deskripsi' => 'Ketekunan membuahkan hasil terbaik'
+            'alamat' => 'Dsn. Bayu Ds. Plantaran ',
+            'deskripsi' => 'Lucu imut fast respon baik'
         ],
         [
             'id'=> 28,
@@ -238,7 +238,7 @@ class SiswaController extends Controller
             'nama' => 'RANI AULIYA NINGSIH',
             'pkl' => 'Balai Desa Karang Bendo',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
-            'alamat' => 'Rogojampi',
+            'alamat' => 'Dsn. KarangAnyar Ds. KarangBendo',
             'deskripsi' => 'Terus belajar teknologi terbaru'
         ],
         [
@@ -278,7 +278,7 @@ class SiswaController extends Controller
             'nama' => 'VINCA AULIA',
             'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
-            'alamat' => 'Rogojampi',
+            'alamat' => 'Gak eroh',
             'deskripsi' => 'Menimba ilmu sebanyak-banyaknya'
         ],
         [
