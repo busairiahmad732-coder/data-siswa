@@ -12,7 +12,7 @@ class SiswaController extends Controller
         [
             "id"=> 1,
             'nama' => 'AHMAD BUSAIRI',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Offline',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Dsn. Karanganyar Ds.Karangbendo',
             'deskripsi' => 'Belajar dulu ngegame bisa nanti'
@@ -36,7 +36,7 @@ class SiswaController extends Controller
         [
             'id'=> 4,
             'nama' => 'AJI PUTRA PRATAMA',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Konsisten dan terus belajar'
@@ -44,7 +44,7 @@ class SiswaController extends Controller
         [
             'id'=> 5,
             'nama' => 'ALIF HAFIZ KANDAYAS',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Eksplorasi kode tanpa batas'
@@ -52,7 +52,7 @@ class SiswaController extends Controller
         [
             'id'=> 6,
             'nama' => 'ALYA CHOIRUNNISA',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Berkarya dengan barisan kode'
@@ -100,7 +100,7 @@ class SiswaController extends Controller
         [
             'id'=> 12,
             'nama' => 'FAIZ RIZKY SYANDANA',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Offline',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Dsn. Watukebo Ds.Watukebo',
             'deskripsi' => 'Yang Bro Rasakan'
@@ -116,7 +116,7 @@ class SiswaController extends Controller
         [
             'id'=> 14,
             'nama' => 'FUAD AULIA AHMAD',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Dsn. Balak Ds.Songgon',
             'deskripsi' => 'Game dulu, belajar mah bisa nanti'
@@ -132,7 +132,7 @@ class SiswaController extends Controller
         [
             'id'=> 16,
             'nama' => 'HUMAIRA MAULINA HAPSARI',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Menata layout web setitik demi setitik'
@@ -140,7 +140,7 @@ class SiswaController extends Controller
         [
             'id'=>17,
             'nama' => 'INTAN AULIA PUTRI',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Sukses itu butuh proses panjang'
@@ -148,7 +148,7 @@ class SiswaController extends Controller
         [
             'id'=> 18,
             'nama' => 'KAYLA NURFITRIA R',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Menaklukkan syntax satu per satu'
@@ -156,7 +156,7 @@ class SiswaController extends Controller
         [
             'id'=> 19,
             'nama' => 'M. ALFIN ZIDDAN AL FAWWAJ',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => Null,
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Kopi panas dan baris kode abadi'
@@ -164,7 +164,7 @@ class SiswaController extends Controller
         [
             'id'=> 20,
             'nama' => 'M. KHEVIN REZHA NUR ANDREAN',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Mekah ngalor titik, Muncar',
             'deskripsi' => 'Bayangin ini punya kepin -Rezha auditore'
@@ -172,7 +172,7 @@ class SiswaController extends Controller
         [
             'id'=> 21,
             'nama' => 'MOH. DIMAS RYAN ADHI PUTRA SIAGIAN',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Dsn. Jagalan Ds.Rogojampi',
             'deskripsi' => 'angek sama bigmok'
@@ -212,7 +212,7 @@ class SiswaController extends Controller
         [
             'id'=> 26,
             'nama' => 'PUTRI WULANSARI NUR\'AISYAH',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech ',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Membangun aplikasi impian masa depan'
@@ -228,7 +228,7 @@ class SiswaController extends Controller
         [
             'id'=> 28,
             'nama' => 'RADITYA SARIF HIDAYATULLAH',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
             'deskripsi' => 'Saya akan kembali di kelas XI RPL sebagai murid biasa'
@@ -244,7 +244,7 @@ class SiswaController extends Controller
         [
             'id'=> 30,
             'nama' => 'RASYA IFQIAN NEZQI',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Offline',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Dsn. Kumendung Ds. Kumendung',
             'deskripsi' => 'Coding tipis tipis, game tebal tebal'
@@ -276,7 +276,7 @@ class SiswaController extends Controller
         [
             'id'=> 34,
             'nama' => 'VINCA AULIA',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Menimba ilmu sebanyak-banyaknya'
@@ -284,7 +284,7 @@ class SiswaController extends Controller
         [
             'id'=> 35,
             'nama' => 'WAFA HAKAM AN NUR',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'PT. Hummatech Offline',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Dsn. Cungkingan Ds.Badean',
             'deskripsi' => 'AMSSRBLHGSHARKM'
