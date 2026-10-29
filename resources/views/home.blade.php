@@ -27,7 +27,6 @@
                     <div class="home-content">
                         <h1>SELAMAT DATANG</h1>
                         <p>Informasi dan profil siswa kelas XI RPL dalam satu website.</p>
-                        
                         <a href="{{ route('admin.profil') }}"
                         class="btn btn-primary">Profil Admin</a>
                     </div>

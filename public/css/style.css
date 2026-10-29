@@ -11,8 +11,8 @@
 body {
     font-family: Arial, sans-serif;
     text-transform: uppercase;
-    color: #222;
-    background-color: #f4f6f9;
+    background-color: #16171D;
+    color: white;
 
     min-height: 100vh;
     display: flex;
@@ -152,6 +152,12 @@ body > .tentang  {
 /* =========================
    4. HALAMAN PROFIL
 ========================= */
+.profil {
+    background-color: #16171D;
+    color: white;
+
+    padding: 50px;
+}
 .posisi-card {
     display: flex;
     justify-content: center;
@@ -169,10 +175,12 @@ body > .tentang  {
 .profil-card {
     width: 100%;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 5px;
     padding: 30px 20px;
 
-    background-color: white;
+    background-color: #16171D;
+
+    border: 1px solid purple;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -199,8 +207,7 @@ body > .tentang  {
 }
 
 .profil-card p {
-    font-size: 14px;
-    color: #666;
+    font-size: 14px;;
     text-transform: none;
     margin-bottom: 10px;
 }
@@ -218,6 +225,11 @@ body > .tentang  {
     flex: 1;
     padding: 110px 20px 50px;
     text-align: center;
+    background-color: #16171D;
+    color: white;
+}
+.daftar-card{
+    padding: 50px;
 }
 
 .daftar h1 {
@@ -231,12 +243,13 @@ body > .tentang  {
     max-width: 1100px;
     display: flex;
     flex-wrap: wrap;
-   margin: 0 auto 25px;
+    margin: 0 auto 25px;
     gap: 0;
     margin-bottom: 25px;
     background: transparent;
     box-shadow: none;
     padding: 0;
+    background-color: #16171D;
 }
 
 .daftar .card-body {
@@ -249,7 +262,10 @@ body > .tentang  {
     align-items: center;
     justify-content: center;
 
-    background-color: white;
+    background-color: #16171D;
+    color: white;
+    border: 1px solid purple;
+
     border-radius: 12px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
@@ -307,7 +323,9 @@ body > .tentang  {
     max-width: 500px;
     padding: 30px;
 
-    background-color: white;
+    background-color: #16171D;
+    color: white;
+    border: 1px solid purple;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -388,19 +406,18 @@ footer p {
     align-items: center;
 
     text-align: center;
-    background-color: #f4f6f9;
+    background-color: #16171D;
+    color: white;
 }
 
 .tentang h1 {
     font-size: clamp(28px, 4vw, 40px);
     font-weight: bold;
-    color: #212529;
     margin-bottom: 15px;
 }
 
 .tentang p {
     font-size: 16px;
-    color: #666;
     text-transform: none;
     margin-bottom: 25px;
     text-align: justify;
