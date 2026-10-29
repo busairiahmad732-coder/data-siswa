@@ -17,7 +17,7 @@
             <p><b>Alamat : </b>{{ $siswa['alamat'] }}</p>
             <p><b>Deskripsi :</b>{{ $siswa['deskripsi'] }}</p>
 
-            <a href="{{ route('admin.siswa') }}" class="btn btn-primary">Kembali Daftar</a>
+            <a href="{{ route('admin.siswa') }}" class="btn btn-primary sticky-down">Kembali Daftar</a>
         </div>
     </div>
 </body>
