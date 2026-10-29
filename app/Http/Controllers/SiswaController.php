@@ -20,7 +20,7 @@ class SiswaController extends Controller
         [
             'id'=> 2,
             'nama' => 'AHMAD CANDRA ZULFAN',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Balai Desa Pondok Nongko',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Fokus ngoding, pantang mundur'
@@ -28,7 +28,7 @@ class SiswaController extends Controller
          [
             'id'=> 3,
             'nama' => 'AIS ANZALIKA FAISSHINA NUR AZIZA',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Politeknik Negeri Banyuwangi',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Sem semangat mengejar mimpi'
@@ -60,7 +60,7 @@ class SiswaController extends Controller
         [
             'id'=> 7,
             'nama' => 'ANANDA RIZKI SAPUTRA',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Balai Desa Pondok Nongko',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Jalani prosesnya nikmati hasilnya'
@@ -68,7 +68,7 @@ class SiswaController extends Controller
         [
             'id'=> 8,
             'nama' => 'CAISAR TSAUBAN TAUFIQY',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => null,
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Ngoding santai hasil memukau'
@@ -76,7 +76,7 @@ class SiswaController extends Controller
         [
             'id'=> 9,
             'nama' => 'DIEMAS ERGA SURYANTARA',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Balai Desa Pondok Nongko',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Pantang pulang sebelum error hilang'
@@ -84,7 +84,7 @@ class SiswaController extends Controller
         [
             'id'=> 10,
             'nama' => 'DINA AROFATUL ULA',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Politeknik Negeri Banyuwangi',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Belajar tekun demi masa depan'
@@ -92,7 +92,7 @@ class SiswaController extends Controller
         [
             'id'=> 11,
             'nama' => 'DINI ARIFATUL UHRO',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Politeknik Negeri Banyuwangi',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Semangat menjalani hari PKL'
@@ -108,7 +108,7 @@ class SiswaController extends Controller
         [
             'id'=> 13,
             'nama' => 'FITRI JULIA DEWI',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'SMK Muhammadiyah 6 Rogojampi',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Terus melangkah dan memperbaiki bug'
@@ -124,7 +124,7 @@ class SiswaController extends Controller
         [
             'id'=> 15,
             'nama' => 'HILMA MAULIDAH LESTARI',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Balai Desa Karang Bendo',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Fokus, teliti, dan selesaikan project'
@@ -188,7 +188,7 @@ class SiswaController extends Controller
         [
             'id'=> 23,
             'nama' => 'MUHAMMAD KHOTIBUL OMAM',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Balai Desa Pondok Nongko',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Debugging adalah teman sejati'
@@ -204,7 +204,7 @@ class SiswaController extends Controller
         [
             'id'=> 25,
             'nama' => 'NAGITA RAMADA PUTRI',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Politeknik Negeri Banyuwangi',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Belajar pemrograman dengan gembira'
@@ -220,7 +220,7 @@ class SiswaController extends Controller
         [
             'id'=> 27,
             'nama' => 'QUROTUL ALVINA',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Politeknik Negeri Banyuwangi',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Ketekunan membuahkan hasil terbaik'
@@ -236,7 +236,7 @@ class SiswaController extends Controller
         [
             'id'=> 29,
             'nama' => 'RANI AULIYA NINGSIH',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => 'Balai Desa Karang     Bendo',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Terus belajar teknologi terbaru'
