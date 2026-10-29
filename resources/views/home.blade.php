@@ -25,15 +25,9 @@
                     style="background-image: url('{{ asset('image/bg1.jpeg') }}')">
 
                     <div class="home-content">
-<<<<<<< HEAD
                         <h1>SELAMAT DATANG</h1>
                         <p>Informasi dan profil siswa kelas XI RPL dalam satu website.</p>
-                        
-=======
-                        <h1>SELAMAT DATANG di website sederhana</h1>
-                        <p>Informasi dan profil siswa dalam satu website.</p>
 
->>>>>>> origin/main
                         <a href="{{ route('admin.profil') }}"
                         class="btn btn-primary">Profil Admin</a>
                     </div>

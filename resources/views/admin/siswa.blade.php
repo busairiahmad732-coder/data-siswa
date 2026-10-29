@@ -15,7 +15,7 @@
 
     <div class="daftar">
         <h1>daftar siswa</h1>
-        <div class="profil-card row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
+        <div class="daftar-card row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
             @forelse ($dataSiswa as $siswa)
             <div class="col">
                 <div class="card h-100">
