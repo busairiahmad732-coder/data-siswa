@@ -59,7 +59,7 @@
                 <div class="foto">
                     <img src="{{ asset('image/Fuad.png') }}" alt="my foto">
                 </div>
-                <h6>Fuad Aulia Ahmed</h6>
+                <h6>Fuad Aulia Ahmad</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
                 <p>magang di <b>pt hummatech malang</b></p>
                 <span class="badge bg-warning text-dark">Editor</span>
