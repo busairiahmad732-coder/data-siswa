@@ -6,7 +6,7 @@
     <title>Detail Siswa</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
-<body>
+<body class="bg-dark">
     <div class="detail">
         <div class="detail-card">
             <h1>Detail siswa</h1>
@@ -17,7 +17,7 @@
             <p><b>Alamat : </b>{{ $siswa['alamat'] }}</p>
             <p><b>Deskripsi :</b>{{ $siswa['deskripsi'] }}</p>
 
-            <a href="{{ route('admin.siswa') }}" class="btn btn-primary">Kembali Daftar</a>
+            <a href="{{ route('admin.siswa') }}" class="btn btn-primary sticky-down">Kembali Daftar</a>
         </div>
     </div>
 </body>
