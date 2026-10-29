@@ -156,7 +156,7 @@ class SiswaController extends Controller
         [
             'id'=> 19,
             'nama' => 'M. ALFIN ZIDDAN AL FAWWAJ',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => null,
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Kopi panas dan baris kode abadi'
@@ -179,8 +179,8 @@ class SiswaController extends Controller
         ],
         [
             'id'=> 22,
-            'nama' => 'MOHAMMAD AS\'AD SAMSUL ARIFIN',
-            'pkl' => 'PT. Hummatech',
+            'nama' => 'MOHAMMAD ASAD SAMSUL ARIFIN',
+            'pkl' => null,
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Pengalaman berharga di dunia industri'
@@ -211,8 +211,8 @@ class SiswaController extends Controller
         ],
         [
             'id'=> 26,
-            'nama' => 'PUTRI WULANSARI NUR\'AISYAH',
-            'pkl' => 'PT. Hummatech',
+            'nama' => 'PUTRI WULANSARI NURAISYAH',
+            'pkl' => null,
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Membangun aplikasi impian masa depan'
@@ -236,7 +236,7 @@ class SiswaController extends Controller
         [
             'id'=> 29,
             'nama' => 'RANI AULIYA NINGSIH',
-            'pkl' => 'Balai Desa Karang     Bendo',
+            'pkl' => 'Balai Desa Karang Bendo',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Terus belajar teknologi terbaru'
@@ -252,7 +252,7 @@ class SiswaController extends Controller
         [
             'id'=> 31,
             'nama' => 'ROBITOH MAULIDAH',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => null,
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Menyelesaikan tugas magang tepat waktu'
@@ -260,14 +260,14 @@ class SiswaController extends Controller
         [
             'id'=> 32,
             'nama' => 'SUCI MAYZAHROHTUS SITA',
-            'pkl' => 'PT. Hummatech',
+            'pkl' => null,
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
             'deskripsi' => 'Semangat berproses di dunia IT'
         ],
         [
             'id'=> 33,
-            'nama' => 'UNOK FATHIR AR ROYYAN KINDY',
+            'nama' => 'UNO FATHIR AR ROYYAN KINDY',
             'pkl' => 'SMK Muhammadiyah 6 Rogojampi',
             'sekolah' => 'SMK 99 Ngawi Barat',
             'alamat' => 'ROBLOK',
