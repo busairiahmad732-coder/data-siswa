@@ -480,11 +480,11 @@ class SiswaController extends Controller
             'deskripsi' => 'Membangun aplikasi impian masa depan'
         ],
         27 => [
-            'nama' => 'QUROTUL ALVINA',
-            'pkl' => 'PT. Hummatech',
+            'nama' => 'QROTUL ALVINA',
+            'pkl' => 'Politeknik Negeri Banyuwangi',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
-            'alamat' => 'Rogojampi',
-            'deskripsi' => 'Ketekunan membuahkan hasil terbaik'
+            'alamat' => 'Dsn. Bayu Ds. Plantaran ',
+            'deskripsi' => 'Lucu imut fast respon baik'
         ],
         28 => [
             'nama' => 'RADITYA SARIF HIDAYATULLAH',
