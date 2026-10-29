@@ -269,7 +269,7 @@ class SiswaController extends Controller
             'id'=> 33,
             'nama' => 'UNO FATHIR AR ROYYAN KINDY',
             'pkl' => 'SMK Muhammadiyah 6 Rogojampi',
-            'sekolah' => 'SMK 99 Ngawi Barat',
+            'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'ROBLOK',
             'deskripsi' => 'Femboy Furry'
         ],
@@ -279,7 +279,7 @@ class SiswaController extends Controller
             'pkl' => 'PT. Hummatech Online',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
-            'deskripsi' => 'Menimba ilmu sebanyak-banyaknya'
+            'deskripsi' => 'Yuk Ngoding Sambil Nangis'
         ],
         [
             'id'=> 35,
