@@ -6,7 +6,7 @@
     <title>Detail Siswa</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
-<body>
+<body class="bg-dark">
     <div class="detail">
         <div class="detail-card">
             <h1>Detail siswa</h1>
