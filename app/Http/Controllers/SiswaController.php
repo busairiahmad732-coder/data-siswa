@@ -31,7 +31,7 @@ class SiswaController extends Controller
             'pkl' => 'Politeknik Negeri Banyuwangi',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
-            'deskripsi' => 'Sem semangat mengejar mimpi'
+            'deskripsi' => 'Semangat mengejar mimpi'
         ],
         [
             'id'=> 4,
