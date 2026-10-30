@@ -51,7 +51,7 @@
 
             <div class="carousel-item">
                 <div class="home-slide"
-                    style="background-image: url('{{ asset('image/bg3.jpeg') }}')">
+                    style="background-image: url('{{ asset('image/bg31.jpeg') }}')">
 
                     <div class="home-content">
                         <h1>WEBSITE DATA SISWA</h1>
