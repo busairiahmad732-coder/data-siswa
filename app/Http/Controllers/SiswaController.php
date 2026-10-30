@@ -385,7 +385,7 @@ class SiswaController extends Controller
             'nama' => 'HILMA MAULIDAH LESTARI',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
-            'deskripsi' => 'Fokus, teliti, dan selesaikan project'
+            'deskripsi' => 'Fokus Crypto dan Ngepil pas kodingan eror'
         ],
         16 => [
             'nama' => 'HUMAIRA MAULINA HAPSARI',
