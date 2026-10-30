@@ -373,7 +373,7 @@ class SiswaController extends Controller
             'nama' => 'FITRI JULIA DEWI',
             'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
             'alamat' => 'Rogojampi',
-            'deskripsi' => 'Terus melangkah dan memperbaiki bug'
+            'deskripsi' => 'Teruslah nyawit dan menjadi Suki Liar'
         ],
         14 => [
             'nama' => 'FUAD AULIA AHMAD',
