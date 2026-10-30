@@ -393,7 +393,7 @@ footer p {
 }
 
 /* =========================
-   HALAMAN TENTANG WEB
+ 9  HALAMAN TENTANG WEB
 ========================= */
 .tentang {
     flex: 1;
@@ -433,4 +433,21 @@ footer p {
 
 .tentang .btn:hover {
     transform: translateY(-3px);
+}
+/*=========================
+10. HALAMAN STUKTUR
+=========================*/
+.struktur {
+    flex: 1;
+    min-height: 80vh;
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    background-color: #16171D;
+    color: white;
 }
