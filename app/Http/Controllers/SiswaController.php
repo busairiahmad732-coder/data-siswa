@@ -401,7 +401,7 @@ class SiswaController extends Controller
             ],
             16 => [
                 'nama' => 'HUMAIRA MAULINA HAPSARI',
-                'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
+              'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Rogojampi',
                 'deskripsi' => 'Menata layout web setitik demi setitik'
             ],
