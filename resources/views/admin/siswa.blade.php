@@ -9,7 +9,7 @@
         rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
         crossorigin="anonymous">
-        
+
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 
@@ -19,7 +19,6 @@
     <div class="daftar">
         <h1>wali kelas</h1>
         <div class="daftar-card wali-kelas">
-            <div class="card h-100">
                 <div class="card-body-wk text-center">
                     <h6>{{ $data[0]['nama']}}</h6>
 
@@ -28,7 +27,6 @@
                     </span>
                 </div>
             </div>
-        </div>
 
 
         <h1>daftar siswa</h1>
