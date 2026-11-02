@@ -32,8 +32,7 @@
             dengan jelas sekaligus menjadi media pembelajaran dalam pengembangan 
             aplikasi berbasis web.
         <br><br>
-            <b>Pengembang :</b>Ahmad Busairi, Wafa Hakam Annur, Rasya Ifkian Nezqi, Faiz Risky Sandana, 
-            dan Fuad Aulia Ahmad
+            <b>Pengembang :</b>Ahmad Busairi dan Wafa Hakam Annur
         </p>
 
         <a href="{{ route('home') }}" class="btn btn-primary">Kembali ke beranda</a>
