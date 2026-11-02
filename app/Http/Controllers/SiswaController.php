@@ -466,61 +466,61 @@ class SiswaController extends Controller
                 'alamat' => 'Rogojampi',
                 'deskripsi' => 'Belajar pemrograman dengan gembira'
             ],
-            28 => [
+            27 => [
                 'nama' => 'PUTRI WULANSARI NURAISYAH',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Rogojampi',
                 'deskripsi' => 'Membangun aplikasi impian masa depan'
             ],
-            29 => [
+            28 => [
                 'nama' => 'QROTUL ALVINA',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Bayu Ds. Plantaran ',
                 'deskripsi' => 'Lucu imut fast respon baik'
             ],
-            30 => [
+            29 => [
                 'nama' => 'RADITYA SARIF HIDAYATULLAH',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Rogojampi Ds.Rogojampi',
                 'deskripsi' => 'Saya akan kembali di kelas XI RPL sebagai murid biasa'
             ],
-            31 => [
+            30 => [
                 'nama' => 'RANI AULIYA NINGSIH',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Rogojampi',
                 'deskripsi' => 'Terus belajar teknologi terbaru'
             ],
-            32 => [
+            31 => [
                 'nama' => 'RASYA IFQIAN NEZQI',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Kumendung Ds. Kumendung',
                 'deskripsi' => 'Coding tipis tipis, game tebal tebal'
             ],
-            33 => [
+            32 => [
                 'nama' => 'ROBITOH MAULIDAH',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Rogojampi',
                 'deskripsi' => 'Menyelesaikan tugas magang tepat waktu'
             ],
-            34 => [
+            33 => [
                 'nama' => 'SUCI MAYZAHROHTUS SITA',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Rogojampi',
                 'deskripsi' => 'Semangat berproses di dunia IT'
             ],
-            35 => [
+            34 => [
                 'nama' => 'UNO FATHIR AR ROYYAN KINDY',
                 'sekolah' => 'SMK 99 Ngawi Barat',
                 'alamat' => 'ROBLOK',
                 'deskripsi' => 'Femboy Furry'
             ],
-            36 => [
+            35 => [
                 'nama' => 'VINCA AULIA',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Rogojampi',
                 'deskripsi' => 'Yuk Ngoding Sambil Nangis'
             ],
-            37 => [
+            36 => [
                 'nama' => 'WAFA HAKAM AN NUR',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
                 'alamat' => 'Dsn. Cungkingan Ds.Badean',
