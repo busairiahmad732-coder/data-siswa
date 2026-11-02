@@ -30,7 +30,7 @@ class SiswaController extends Controller
                 'alamat' => 'Rogojampi',
                 'deskripsi' => 'Fokus ngoding, pantang mundur'
             ],
-            [
+            [   
                 'id' => 3,                                         
                 'nama' => 'AIS ANZALIKA FAISSHINA NUR AZIZA',
                 'pkl' => 'Politeknik Negeri Banyuwangi',
