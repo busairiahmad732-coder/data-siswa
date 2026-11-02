@@ -41,7 +41,7 @@
                     style="background-image: url('{{ asset('image/bg2.jpeg') }}')">
 
                     <div class="home-content">
-                        <h1>DATA SISWA KELAS XI RPL</h1>
+                        <h1>DATA KELAS XI RPL</h1>
                         <p><b>SMK Muhammadiyah 6 Rogojampi</b></p>
 
                         <a href="{{ route('admin.siswa') }}"
