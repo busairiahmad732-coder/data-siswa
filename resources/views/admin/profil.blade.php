@@ -14,7 +14,7 @@
     @include('componen.navbar')
     <div class="profil">
     <h2>profil admin</h2>
-        <div class="posisi-card row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3">
+        <div class="posisi-card row row-cols-1 row-cols-md-2 g-3">
             <div class="profil-card col">
                 <div class="foto">
                     <img src="{{ asset('image/ari.png') }}" alt="my foto">
