@@ -36,7 +36,7 @@ class SiswaController extends Controller
                 'deskripsi' => 'Fokus ngoding, pantang mundur'
             ],
             [
-                'id' => 4,                                           ,
+                'id' => 4,                                           
                 'nama' => 'AIS ANZALIKA FAISSHINA NUR AZIZA',
                 'pkl' => 'Politeknik Negeri Banyuwangi',
                 'sekolah' => 'SMK Muhammadiyah 6 Rogojampi',
