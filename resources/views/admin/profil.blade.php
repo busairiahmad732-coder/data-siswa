@@ -14,7 +14,7 @@
     @include('componen.navbar')
     <div class="profil">
     <h2>profil admin</h2>
-        <div class="posisi-card row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
+        <div class="posisi-card row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3">
             <div class="profil-card col">
                 <div class="foto">
                     <img src="{{ asset('image/ari.png') }}" alt="my foto">
@@ -30,36 +30,6 @@
                     <img src="{{ asset('image/Wafa.png') }}" alt="my foto">
                 </div>
                 <h6>wafa hakam annur</h6>
-                <p>smk muhammadiyah 6 rogaojampi</p>
-                <p>magang di <b>pt hummatech malang</b></p>
-                <span class="badge bg-warning text-dark">Editor</span>
-            </div>  
-
-            <div class="profil-card col">
-                <div class="foto">
-                    <img src="{{ asset('image/Rasya.png') }}" alt="my foto">
-                </div>
-                <h6>rasya ifqian nezqi</h6>
-                <p>smk muhammadiyah 6 rogaojampi</p>
-                <p>magang di <b>pt hummatech malang</b></p>
-                <span class="badge bg-warning text-dark">Editor</span>
-            </div>
-
-            <div class="profil-card col">
-                <div class="foto">
-                    <img src="{{ asset('image/Faiz.png') }}" alt="my foto">
-                </div>
-                <h6>Faiz Rizky Syandana</h6>
-                <p>smk muhammadiyah 6 rogaojampi</p>
-                <p>magang di <b>pt hummatech malang</b></p>
-                <span class="badge bg-warning text-dark">Editor</span>
-            </div>
-
-            <div class="profil-card col">
-                <div class="foto">
-                    <img src="{{ asset('image/Fuad.png') }}" alt="my foto">
-                </div>
-                <h6>Fuad Aulia Ahmad</h6>
                 <p>smk muhammadiyah 6 rogaojampi</p>
                 <p>magang di <b>pt hummatech malang</b></p>
                 <span class="badge bg-warning text-dark">Editor</span>
