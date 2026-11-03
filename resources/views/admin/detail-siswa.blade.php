@@ -11,7 +11,7 @@
         <div class="detail-card">
             <h1>Detail siswa</h1>
 
-            <p><b>ID : </b>{{ $id }}</p>
+            <p><b>Absen : </b>{{ $id }}</p>
             <p><b>Nama : </b>{{ $siswa['nama'] }}</p>
             <p><b>Sekolah : </b>{{ $siswa['sekolah'] }}</p>
             <p><b>Alamat : </b>{{ $siswa['alamat'] }}</p>
