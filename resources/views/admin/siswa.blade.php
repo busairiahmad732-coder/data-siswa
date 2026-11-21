@@ -18,7 +18,7 @@
 
     <div class="daftar">
 
-        <h1>Guru</h1>
+        <h1>wali kelas</h1>
         <div class="daftar-card row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3">
             @forelse ($waliKelas as $guru)
             <div class="col">

@@ -14,11 +14,6 @@ class SiswaController extends Controller
                 'nama' => 'Tyas Dyah Safitri',
                 'status' => 'Guru bahasa indonesia'
             ],
-            [
-                'id' => 2,
-                'nama' => 'Hilal pratama',
-                'status' => 'Guru bd dan pw'
-            ],
         ];
         $dataSiswa = [
             [
